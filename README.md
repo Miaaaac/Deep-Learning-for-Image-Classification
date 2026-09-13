@@ -87,18 +87,27 @@ The **CNN with batch normalization** achieved the best accuracy/time trade-off, 
 └── README.md
 ```
 
+
 ## Requirements
 
-```
-numpy
-pandas
-matplotlib
-torch
-torchvision
-tensorflow
-scikit-learn
-Pillow
-```
+The notebooks rely on the following packages:
+
+| Package | Used for |
+|---|---|
+| `numpy` | Numerical arrays |
+| `pandas` | Data loading, cleaning, and logging/collecting results |
+| `matplotlib` | Plotting results and figures |
+| `torch` | Core tensors, autograd, `nn.Module` (model building and training) |
+| `torchvision` | Datasets, image transforms |
+| `tensorflow` | Model building and training |
+| `scikit-learn` | Preprocessing, train/test splitting, evaluation metrics |
+| `Pillow` | Image loading/handling |
+
+Install everything with:
+
+\`\`\`
+pip install numpy pandas matplotlib torch torchvision tensorflow scikit-learn Pillow
+\`\`\`
 
 ## How to Run
 
